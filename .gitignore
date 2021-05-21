@@ -91,7 +91,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# My draft coding files
+# My drafting files
 c.cpp
 a.cpp
 gen.cpp
+in.txt
+out.txt
