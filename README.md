@@ -16,3 +16,5 @@
 - [V Judge - Backtracking Assignment](https://vjudge.net/contest/442432)
 
 ### Slides
+
+- [Introduction to Graph Theory](https://slides.com/muhammadmagdi/graph-intro)
