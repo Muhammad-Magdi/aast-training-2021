@@ -14,6 +14,7 @@
 - [V Judge - Bitmasks Assignment](https://vjudge.net/contest/439955)
 - [V Judge - Number Theory Assignment](https://vjudge.net/contest/441250)
 - [V Judge - Backtracking Assignment](https://vjudge.net/contest/442432)
+- [V Judge - DFS Assignment](https://vjudge.net/contest/446288)
 
 ### Slides
 
