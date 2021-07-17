@@ -34,3 +34,4 @@
 - [Introduction to Graph Theory](https://zoom.us/rec/share/XoU1TWUGDt7JdY4uPtgQvEv4_WuNE2X3XWO3lmYDDSOTGhKW5FpYVKtkSnjCSWoP.SvEfiM8iddQ8emkP)
 - [Depth First Search](https://zoom.us/rec/share/77lmqyRpzEPofBK0fWI_7rNMnNu9JU1wmEEO1VjjDnkQzqPm5hgkG_NYTyQje5WC.OqVbU-SirFFkFaCf)
 - [Breadth First Search](https://zoom.us/rec/share/x1VohsnUD5muVKMvohjm_pYfDuQ1h5c4CaIrZuKdGpIZyUMx-R1k3P4GE7skiknH.9-SgO7KZSvK5s9hm)
+- [Traversal Applications](https://zoom.us/rec/share/rXWtC6ufnYUOdbk5i6SPPNWqxKyGHFx7nTMAMcoyPKUDjSKD69Ifk1WBSwAr-Og.HaM78CY_8K8qWj5Z)
