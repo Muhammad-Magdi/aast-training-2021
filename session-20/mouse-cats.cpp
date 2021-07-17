@@ -7,6 +7,10 @@ const int N = 1e3 + 5, M = 1e3 + 5, OO = 0x3f3f3f3f;
 int n, m, mR, mC;
 char grid[N][M];
 
+bool isValid(int r, int c) {
+    return r < n && r >= 0 && c < m && c >= 0;
+}
+
 int dR[] = {1, -1, 0, 0};
 int dC[] = {0, 0, 1, -1};
 int catDis[N][M];
@@ -29,7 +33,7 @@ void BFSCats() {
         for (int k = 0; k < 4; k++) {
             int nR = u.first + dR[k];
             int nC = u.second + dC[k];
-            if (nR < n && nR >= 0 && nC < m && nC >= 0 && catDis[nR][nC] == OO && grid[nR][nC] != '#') {
+            if (isValid(nR, nC) && catDis[nR][nC] == OO && grid[nR][nC] != '#') {
                 catDis[nR][nC] = catDis[u.first][u.second] + 1;
                 q.push({nR, nC});
             }
@@ -37,6 +41,8 @@ void BFSCats() {
     }
 }
 
+pair<int, int> parent[N][M];
+pair<int, int> ext;
 int mouseDis[N][M];
 bool BFSMouse(int mR, int mC) {
     memset(mouseDis, OO, sizeof mouseDis);
@@ -51,8 +57,12 @@ bool BFSMouse(int mR, int mC) {
         for (int k = 0; k < 4; k++) {
             int nR = u.first + dR[k];
             int nC = u.second + dC[k];
-            if (nR < n && nR >= 0 && nC < m && nC >= 0 && mouseDis[nR][nC] == OO && grid[nR][nC] != '#' && catDis[nR][nC] > mouseDis[u.first][u.second] + 1) {
-                if (grid[nR][nC] == 'E') return true;
+            if (isValid(nR, nC) && mouseDis[nR][nC] == OO && grid[nR][nC] != '#' && catDis[nR][nC] > mouseDis[u.first][u.second] + 1) {
+                parent[nR][nC] = u;
+                if (grid[nR][nC] == 'E') {
+                    ext = {nR, nC};
+                    return true;
+                }
 
                 mouseDis[nR][nC] = mouseDis[u.first][u.second] + 1;
                 q.push({nR, nC});
@@ -60,6 +70,15 @@ bool BFSMouse(int mR, int mC) {
         }
     }
     return false;
+}
+
+void printPath(int r, int c) {
+    if (r == mR && c == mC) {
+        printf("%d %d\n", r, c);
+        return;
+    }
+    printPath(parent[r][c].first, parent[r][c].second);
+    printf("%d %d\n", r, c);
 }
 
 int main() {
@@ -74,7 +93,9 @@ int main() {
         }
     }
     BFSCats();
+    bool canEscape = BFSMouse(mR, mC);
     puts(BFSMouse(mR, mC) ? "YES" : "NO");
+    if (canEscape) printPath(ext.first, ext.second);
     return 0;
 }
 
