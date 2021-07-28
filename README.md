@@ -16,6 +16,7 @@
 - [V Judge - Backtracking Assignment](https://vjudge.net/contest/442432)
 - [V Judge - DFS Assignment](https://vjudge.net/contest/446288)
 - [V Judge - DFS#2 + BFS Assignment](https://vjudge.net/contest/447938)
+- [V Judge - DSU, MST and Kruskal](https://vjudge.net/contest/449813)
 
 ### Slides
 
