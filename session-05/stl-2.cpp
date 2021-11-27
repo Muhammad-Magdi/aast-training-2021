@@ -33,10 +33,10 @@ int main() {
     A[i].second.second *= -1;
   }
 
-  sort(A, A+n);
+  sort(A, A + n);
 
   for (int i = 0; i < n; i++) {
-    cout << A[i].first << " " << A[i].second.first << " " << -1*A[i].second.second << endl;
+    cout << A[i].first << " " << A[i].second.first << " " << -1 * A[i].second.second << endl;
   }
   return 0;
 }

@@ -25,22 +25,22 @@ void merge(int* A, int szA, int* B, int szB) {  // O(szA + szB)
     C[idxC++] = B[idxB++];
   }
 
-  for (int i = 0; i < szA+szB; i++) {
+  for (int i = 0; i < szA + szB; i++) {
     // cout << C[i] << endl;
     A[i] = C[i];
   }
 
-  delete [] C;
+  delete[] C;
 }
 
 void mergeSort(int* A, int sz) {
   if (sz < 2) {
     return;
   }
-  int half = sz/2;
+  int half = sz / 2;
   mergeSort(A, half);  // Sorts first half
-  mergeSort(A+half, sz - half); // Sorts second half
-  merge(A, half, A+half, sz - half);  // Combine the two sorted arrays into one
+  mergeSort(A + half, sz - half); // Sorts second half
+  merge(A, half, A + half, sz - half);  // Combine the two sorted arrays into one
 }
 
 int main() {
@@ -61,10 +61,10 @@ int main() {
 
   // mergeSort(A, n);
 
-  sort(A, A+n); // O(n*log(n)) - Intro Sort - hybrid Algorithm
+  sort(A, A + n); // O(n*log(n)) - Intro Sort - hybrid Algorithm
 
   for (int i = 0; i < n; i++) {
-    cout << A[i] << " \n"[i==n-1];
+    cout << A[i] << " \n"[i == n - 1];
   }
   return 0;
 }

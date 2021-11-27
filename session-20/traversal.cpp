@@ -10,35 +10,35 @@ vector<int> adj[N];
 
 int dis[N];
 void BFS(int src) { // O(n + m)
-    dis[src] = 0;
-    queue<int> q;
-    q.push(src);
+  dis[src] = 0;
+  queue<int> q;
+  q.push(src);
 
-    while (!q.empty()) {
-        int u = q.front();
-        q.pop();
-        for (int v: adj[u]) {
-            if (dis[v] == OO) {
-                q.push(v);
-                dis[v] = dis[u] + 1;
-            }
-        }
+  while (!q.empty()) {
+    int u = q.front();
+    q.pop();
+    for (int v : adj[u]) {
+      if (dis[v] == OO) {
+        q.push(v);
+        dis[v] = dis[u] + 1;
+      }
     }
+  }
 }
 
 int main() {
-    scanf("%d %d", &n, &m);
-    for (int i = 0; i < m; i++) {
-        scanf("%d %d", &u, &v);
-        adj[u].push_back(v);
-        adj[v].push_back(u);
-    }
-    memset(dis, OO, sizeof dis);
-    BFS(0);
-    for (int u = 0; u < n; u++) {
-        printf("%d %d\n", u, dis[u]);
-    }
-    return 0;
+  scanf("%d %d", &n, &m);
+  for (int i = 0; i < m; i++) {
+    scanf("%d %d", &u, &v);
+    adj[u].push_back(v);
+    adj[v].push_back(u);
+  }
+  memset(dis, OO, sizeof dis);
+  BFS(0);
+  for (int u = 0; u < n; u++) {
+    printf("%d %d\n", u, dis[u]);
+  }
+  return 0;
 }
 
 /*

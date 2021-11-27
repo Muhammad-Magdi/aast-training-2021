@@ -7,7 +7,7 @@ using namespace std;
 int n, x;
 
 int main() {
-  while(cin >> n, n) {  // number of test cases
+  while (cin >> n, n) {  // number of test cases
     queue<int> q;
     for (int i = 0; i < n; i++) {
       cin >> x;
@@ -21,7 +21,7 @@ int main() {
         next++;
       } else if (!st.empty() && st.top() == next) {
         st.pop();
-        next++;  
+        next++;
       } else if (!q.empty()) {
         st.push(q.front());
         q.pop();
@@ -32,6 +32,6 @@ int main() {
     } else {
       cout << "no" << endl;
     }
-  }  
+  }
   return 0;
 }

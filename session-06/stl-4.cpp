@@ -33,7 +33,7 @@ int main() {
       } else {
         if (isReversed) {
           cout << dq.back() << endl;
-          dq.pop_back();  
+          dq.pop_back();
         } else {
           cout << dq.front() << endl;
           // v.erase(v.begin());

@@ -10,28 +10,28 @@ vector<int> adj[N];
 bool vis[N];
 
 void DFS(int u) {
-    vis[u] = true;
-    for (int v : adj[u]) {
-        if (!vis[v]) {
-            DFS(v);
-        }
+  vis[u] = true;
+  for (int v : adj[u]) {
+    if (!vis[v]) {
+      DFS(v);
     }
-    printf("%d\n", u);
+  }
+  printf("%d\n", u);
 }
 
 int main() {
-    scanf("%d %d", &n, &m);
-    for (int i = 0; i < m; i++) {
-        scanf("%d %d", &u, &v);
-        adj[u].push_back(v);
-    }
+  scanf("%d %d", &n, &m);
+  for (int i = 0; i < m; i++) {
+    scanf("%d %d", &u, &v);
+    adj[u].push_back(v);
+  }
 
-    for (int u = 0; u < n; u++) {
-        if (!vis[u]) {
-            DFS(u);
-        }
+  for (int u = 0; u < n; u++) {
+    if (!vis[u]) {
+      DFS(u);
     }
-    return 0;
+  }
+  return 0;
 }
 /*
 Samples:

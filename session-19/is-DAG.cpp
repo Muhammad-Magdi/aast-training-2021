@@ -12,35 +12,35 @@ vector<int> adj[N];
 int vis[N];
 
 bool isCyclic(int u) {
-    vis[u] = IN_PROGRESS;
-    for (int v : adj[u]) {
-        if (vis[v] == NOT_VISITED) {
-            if (isCyclic(v))  return true;
-        }
-        if (vis[v] == IN_PROGRESS) {
-            return true;
-        }
+  vis[u] = IN_PROGRESS;
+  for (int v : adj[u]) {
+    if (vis[v] == NOT_VISITED) {
+      if (isCyclic(v))  return true;
     }
-    vis[u] = VISITED;
-    return false;
+    if (vis[v] == IN_PROGRESS) {
+      return true;
+    }
+  }
+  vis[u] = VISITED;
+  return false;
 }
 
 int main() {
-    scanf("%d %d", &n, &m);
-    for (int i = 0; i < m; i++) {
-        scanf("%d %d", &u, &v);
-        adj[u].push_back(v);
+  scanf("%d %d", &n, &m);
+  for (int i = 0; i < m; i++) {
+    scanf("%d %d", &u, &v);
+    adj[u].push_back(v);
+  }
+  for (int u = 0; u < n; u++) {
+    if (vis[u] == NOT_VISITED) {
+      if (isCyclic(u)) {
+        puts("Cyclic");
+        return 0;
+      }
     }
-    for (int u = 0; u < n; u++) {
-        if (vis[u] == NOT_VISITED) {
-            if (isCyclic(u)) {
-                puts("Cyclic");
-                return 0;
-            }
-        }
-    }
-    puts("Acyclic");
-    return 0;
+  }
+  puts("Acyclic");
+  return 0;
 }
 /*
     Samples:

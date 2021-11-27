@@ -10,48 +10,48 @@ int leader[N];
 int sz[N];
 void init()
 {
-    for (int i = 0; i <= n; i++) {
-        leader[i] = i;
-        sz[i] = 1;
-    }
+  for (int i = 0; i <= n; i++) {
+    leader[i] = i;
+    sz[i] = 1;
+  }
 }
 
 int getLeader(int u) // O(n)
 {
-    if (u == leader[u])
-        return u;
-    return leader[u] = getLeader(leader[u]);
+  if (u == leader[u])
+    return u;
+  return leader[u] = getLeader(leader[u]);
 }
 
 bool areFriends(int u, int v)
 {
-    return getLeader(u) == getLeader(v);
+  return getLeader(u) == getLeader(v);
 }
 
 void makeFriends(int u, int v)
 {
-    u = getLeader(u);
-    v = getLeader(v);
-    if (u == v)
-        return;
+  u = getLeader(u);
+  v = getLeader(v);
+  if (u == v)
+    return;
 
-    leader[u] = v;
-    sz[v] += sz[u];
+  leader[u] = v;
+  sz[v] += sz[u];
 }
 
 int main()
 {
-    scanf("%d", &t);
-    while (t--) {
-        scanf("%d %d", &n, &m);
-        init();
-        for (int i = 0; i < m; i++) {
-            scanf("%d %d", &u, &v);
-            makeFriends(u, v);
-        }
-        printf("%d\n", *max_element(sz + 1, sz + n + 1));
+  scanf("%d", &t);
+  while (t--) {
+    scanf("%d %d", &n, &m);
+    init();
+    for (int i = 0; i < m; i++) {
+      scanf("%d %d", &u, &v);
+      makeFriends(u, v);
     }
-    return 0;
+    printf("%d\n", *max_element(sz + 1, sz + n + 1));
+  }
+  return 0;
 }
 
 /*

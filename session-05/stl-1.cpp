@@ -18,7 +18,7 @@ using namespace std;
   (3, 4)
 */
 
-struct Point{
+struct Point {
   int x;
   int y;
 };
@@ -42,7 +42,7 @@ int main() {
     cin >> A[i].x >> A[i].y;
   }
 
-  sort(A, A+n, cmp);
+  sort(A, A + n, cmp);
 
   for (int i = 0; i < n; i++) {
     cout << A[i].x << " " << A[i].y << endl;

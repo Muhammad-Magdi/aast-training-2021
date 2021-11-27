@@ -11,7 +11,7 @@ int A[N];
 void solveN2() {
   bool found = false;
   for (int i = 0; i < n; i++) { // O(n^2)
-    for (int j = i+1; j < n; j++) {
+    for (int j = i + 1; j < n; j++) {
       if (A[i] + A[j] == target) {
         found = true;
       }
@@ -34,11 +34,11 @@ int find(int* A, int sz, int val) { // O(n)
 
 void solveNLogN() {  // O(n*log(n))
   bool found = false;
-  sort(A, A+n);   // O(n*log(n))
-  for (int i = 0; i < n; i++) { 
+  sort(A, A + n);   // O(n*log(n))
+  for (int i = 0; i < n; i++) {
     int rem = target - A[i];
     // Does the array have the value `rem`?
-    if (binary_search(A+i+1, A+n, rem)) { // O(log(n))
+    if (binary_search(A + i + 1, A + n, rem)) { // O(log(n))
       found = true;
     }
   }
@@ -49,10 +49,10 @@ void solveNLogN() {  // O(n*log(n))
 
 void solveNLogNCount() {  // O(n*log(n))
   int found = 0;
-  sort(A, A+n);   // O(n*log(n))
-  for (int i = 0; i < n; i++) { 
+  sort(A, A + n);   // O(n*log(n))
+  for (int i = 0; i < n; i++) {
     int rem = target - A[i];
-    int cnt = upper_bound(A+i+1, A+n, rem) - lower_bound(A+i+1, A+n, rem);
+    int cnt = upper_bound(A + i + 1, A + n, rem) - lower_bound(A + i + 1, A + n, rem);
     found += cnt;
   }
   cout << found << endl;

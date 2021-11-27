@@ -37,10 +37,10 @@ int main() {  // O(n*(2^n))
   while (t--) {
     scanf("%d %d", &target, &n);
     for (int i = 0; i < n; i++) {
-      scanf("%d", A+i);
+      scanf("%d", A + i);
     }
     bool valid = false;
-    for (int subset = 0; subset < (1<<n); subset++) {
+    for (int subset = 0; subset < (1 << n); subset++) {
       int sum = 0;
       for (int k = 0; k < n; k++) {
         if (isON(subset, k)) {
