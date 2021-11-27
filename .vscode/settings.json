@@ -1,5 +1,17 @@
 {
     "files.associations": {
-        "vector": "cpp"
+      "vector": "cpp",
+      "*.tcc": "cpp",
+      "bitset": "cpp",
+      "optional": "cpp",
+      "algorithm": "cpp",
+      "random": "cpp",
+      "istream": "cpp",
+      "numeric": "cpp",
+      "streambuf": "cpp",
+      "regex": "cpp",
+      "valarray": "cpp",
+      "cstdio": "cpp",
+      "cstring": "cpp"
     }
 }
