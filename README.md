@@ -24,7 +24,7 @@
 
 ### Recordings
 
-- Complexity Analysis [[1](https://zoom.us/rec/share/NyycE2QPLhDgDnM99U_HW7OglfkusRXpqTC1BRy7fYV5uy9B9fBoLWgvpfSf_FHk.1shAZ4IhsF8v1EHO), [2](https://zoom.us/rec/share/5GWplVp8Ce44qs_Ynpp2mqUEn1hRwG38PceFxhdELENkfNw-qWvkd5VK9cjQzIMq.IMq4LmCHqwJramlz)]
+- Complexity Analysis [[1](https://youtu.be/wEbdQeVwLlo), [2](https://youtu.be/o5zf5oVHtn0)]
 - Sorting & Built-in Functions [[1](https://youtu.be/ANlDiMeyxSE), [2](https://youtu.be/MxpuXqNypBE)]
 - STL [[1](https://youtu.be/Uh2hnrjO26o), [2](https://youtu.be/JdP77eojCpU), [3](https://zoom.us/rec/share/We9pzeQB67Wnh2bqH3rCZKCPA17gM9eOiHkOONDSvIMdoubnR-VUl1yCqAdUU1iY.lKrkEN8-HmwDkQD_), [4](https://zoom.us/rec/share/uCVl0aNdVcsjTU-v29vj7H-AstlgCUK8wSAhCkLebOqqN3hCpLb5K0lq51hdLBiF.w_ooh_3sqcojOoaM)]
 - [Frequency Arrays & Cumulative Sum](https://zoom.us/rec/share/6Zs1xd46YZ7asxkbgjbZEE-aOCQSVnsCIJ4N3fT4uiEIozlhdifRQdfyabmHS6g.gkOYcDIREbo5s4Md)
