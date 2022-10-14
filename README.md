@@ -33,7 +33,7 @@
 - Number Theory [[1](https://zoom.us/rec/share/Qrn12yTx1uI1vG9mBBna-DujUVqV3vi0r5amHQ41Bq1lnd5sDMDSusMEbLpPTUAQ.-sC8tjYTXNnL9XFq), [2](https://zoom.us/rec/share/qfWsURYzpQWtm2ecB5FIJw2DivMI7OSYlhn7Ztw7rW9TwSudhhdSrN9e-U3zSD6r.Ld-jzw1utQ3L7faZ)]
 - [Recursion](https://youtu.be/BBENTqZTjzc)
 - [Backtracking](https://zoom.us/rec/share/tGCnTOlfW5BZRWS8l4nS40Y6Z1UT2UwvqIHQH5yBjKwfXzoJWzKEhnjwiUhFmerD.Nl9lttQZOzHdS4XA)
-- [Introduction to Graph Theory](https://zoom.us/rec/share/XoU1TWUGDt7JdY4uPtgQvEv4_WuNE2X3XWO3lmYDDSOTGhKW5FpYVKtkSnjCSWoP.SvEfiM8iddQ8emkP)
+- [Introduction to Graph Theory](https://youtu.be/pU5PDOmM1cw)
 - [Depth First Search](https://zoom.us/rec/share/77lmqyRpzEPofBK0fWI_7rNMnNu9JU1wmEEO1VjjDnkQzqPm5hgkG_NYTyQje5WC.OqVbU-SirFFkFaCf)
 - [Breadth First Search](https://zoom.us/rec/share/x1VohsnUD5muVKMvohjm_pYfDuQ1h5c4CaIrZuKdGpIZyUMx-R1k3P4GE7skiknH.9-SgO7KZSvK5s9hm)
 - [Traversal Applications](https://zoom.us/rec/share/rXWtC6ufnYUOdbk5i6SPPNWqxKyGHFx7nTMAMcoyPKUDjSKD69Ifk1WBSwAr-Og.HaM78CY_8K8qWj5Z)
