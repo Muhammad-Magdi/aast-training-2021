@@ -26,13 +26,13 @@
 
 - Complexity Analysis [[1](https://youtu.be/wEbdQeVwLlo), [2](https://youtu.be/o5zf5oVHtn0)]
 - Sorting & Built-in Functions [[1](https://youtu.be/ANlDiMeyxSE), [2](https://youtu.be/MxpuXqNypBE)]
-- STL [[1](https://youtu.be/Uh2hnrjO26o), [2](https://youtu.be/JdP77eojCpU), [3](https://youtu.be/u6WuKiOfLJo), [4](https://zoom.us/rec/share/uCVl0aNdVcsjTU-v29vj7H-AstlgCUK8wSAhCkLebOqqN3hCpLb5K0lq51hdLBiF.w_ooh_3sqcojOoaM)]
+- STL [[1](https://youtu.be/Uh2hnrjO26o), [2](https://youtu.be/JdP77eojCpU), [3](https://youtu.be/u6WuKiOfLJo), [4](https://youtu.be/3sqOmhtH5SA)]
 - [Frequency Arrays & Cumulative Sum](https://zoom.us/rec/share/6Zs1xd46YZ7asxkbgjbZEE-aOCQSVnsCIJ4N3fT4uiEIozlhdifRQdfyabmHS6g.gkOYcDIREbo5s4Md)
 - [Greedy](https://zoom.us/rec/share/1IoZUzXTLr5jzKREFOrC-mJkI5kiDX2J-OxPKS_g5_REJKBWLJsJ0oiVLUUc7JDC.RWTtKdoNK7iufrie)
 - Bitmasks [[1](https://zoom.us/rec/share/8CrjN7bM3apIlV0RxcAaLjeeCe6h0z1B-qrNfo7pDOVcEyrLyst5-G1BfV3_bvAD.bYWGlJEh0OTr0kfg), [2](https://zoom.us/rec/share/o_LNfh_x-QfS7do2caFOexToEWm589p5fynU-JsX4XOeFCsshDnKMLqDZBHO3NUA.XKfjuZf11mZS-wi6)]
 - Number Theory [[1](https://zoom.us/rec/share/Qrn12yTx1uI1vG9mBBna-DujUVqV3vi0r5amHQ41Bq1lnd5sDMDSusMEbLpPTUAQ.-sC8tjYTXNnL9XFq), [2](https://zoom.us/rec/share/qfWsURYzpQWtm2ecB5FIJw2DivMI7OSYlhn7Ztw7rW9TwSudhhdSrN9e-U3zSD6r.Ld-jzw1utQ3L7faZ)]
 - [Recursion](https://youtu.be/BBENTqZTjzc)
-- [Backtracking](https://zoom.us/rec/share/tGCnTOlfW5BZRWS8l4nS40Y6Z1UT2UwvqIHQH5yBjKwfXzoJWzKEhnjwiUhFmerD.Nl9lttQZOzHdS4XA)
+- [Backtracking](https://youtu.be/B_dar92mGwQ)
 - [Introduction to Graph Theory](https://youtu.be/pU5PDOmM1cw)
 - [Depth First Search](https://youtu.be/8SaE3XfwJZg)
 - [Breadth First Search](https://zoom.us/rec/share/x1VohsnUD5muVKMvohjm_pYfDuQ1h5c4CaIrZuKdGpIZyUMx-R1k3P4GE7skiknH.9-SgO7KZSvK5s9hm)
