@@ -28,7 +28,7 @@
 - Sorting & Built-in Functions [[1](https://youtu.be/ANlDiMeyxSE), [2](https://youtu.be/MxpuXqNypBE)]
 - STL [[1](https://youtu.be/Uh2hnrjO26o), [2](https://youtu.be/JdP77eojCpU), [3](https://youtu.be/u6WuKiOfLJo), [4](https://youtu.be/3sqOmhtH5SA)]
 - [Frequency Arrays & Cumulative Sum](https://youtu.be/GXBdU5NReeg)
-- [Greedy](https://zoom.us/rec/share/1IoZUzXTLr5jzKREFOrC-mJkI5kiDX2J-OxPKS_g5_REJKBWLJsJ0oiVLUUc7JDC.RWTtKdoNK7iufrie)
+- [Coordinate Compression, Maximum Sub-Array Sum, and Scheduling](https://youtu.be/ZTnQSFRWf8w)
 - Bitmasks [[1](https://zoom.us/rec/share/8CrjN7bM3apIlV0RxcAaLjeeCe6h0z1B-qrNfo7pDOVcEyrLyst5-G1BfV3_bvAD.bYWGlJEh0OTr0kfg), [2](https://zoom.us/rec/share/o_LNfh_x-QfS7do2caFOexToEWm589p5fynU-JsX4XOeFCsshDnKMLqDZBHO3NUA.XKfjuZf11mZS-wi6)]
 - Number Theory [[1](https://zoom.us/rec/share/Qrn12yTx1uI1vG9mBBna-DujUVqV3vi0r5amHQ41Bq1lnd5sDMDSusMEbLpPTUAQ.-sC8tjYTXNnL9XFq), [2](https://zoom.us/rec/share/qfWsURYzpQWtm2ecB5FIJw2DivMI7OSYlhn7Ztw7rW9TwSudhhdSrN9e-U3zSD6r.Ld-jzw1utQ3L7faZ)]
 - [Recursion](https://youtu.be/BBENTqZTjzc)
