@@ -29,12 +29,12 @@
 - STL [[1](https://youtu.be/Uh2hnrjO26o), [2](https://youtu.be/JdP77eojCpU), [3](https://youtu.be/u6WuKiOfLJo), [4](https://youtu.be/3sqOmhtH5SA)]
 - [Frequency Arrays & Cumulative Sum](https://youtu.be/GXBdU5NReeg)
 - [Coordinate Compression, Maximum Sub-Array Sum, and Scheduling](https://youtu.be/ZTnQSFRWf8w)
-- Bitmasks [[1](https://youtu.be/Q4RA5N8xhh8), [2](https://zoom.us/rec/share/o_LNfh_x-QfS7do2caFOexToEWm589p5fynU-JsX4XOeFCsshDnKMLqDZBHO3NUA.XKfjuZf11mZS-wi6)]
+- Bitmasks [[1](https://youtu.be/Q4RA5N8xhh8), [2](https://youtu.be/t3W-zCx1OJ8)]
 - Number Theory [[1](https://zoom.us/rec/share/Qrn12yTx1uI1vG9mBBna-DujUVqV3vi0r5amHQ41Bq1lnd5sDMDSusMEbLpPTUAQ.-sC8tjYTXNnL9XFq), [2](https://zoom.us/rec/share/qfWsURYzpQWtm2ecB5FIJw2DivMI7OSYlhn7Ztw7rW9TwSudhhdSrN9e-U3zSD6r.Ld-jzw1utQ3L7faZ)]
 - [Recursion](https://youtu.be/BBENTqZTjzc)
 - [Backtracking](https://youtu.be/B_dar92mGwQ)
 - [Introduction to Graph Theory](https://youtu.be/pU5PDOmM1cw)
 - [Depth First Search](https://youtu.be/8SaE3XfwJZg)
-- [Breadth First Search](https://zoom.us/rec/share/x1VohsnUD5muVKMvohjm_pYfDuQ1h5c4CaIrZuKdGpIZyUMx-R1k3P4GE7skiknH.9-SgO7KZSvK5s9hm)
+- [Breadth First Search](https://youtu.be/iJOB2lo39n0)
 - [Traversal Applications](https://zoom.us/rec/share/rXWtC6ufnYUOdbk5i6SPPNWqxKyGHFx7nTMAMcoyPKUDjSKD69Ifk1WBSwAr-Og.HaM78CY_8K8qWj5Z)
-- [DSU, MST and Kruskal](https://zoom.us/rec/share/20AOBsl-b8TQ8OD_CfkATOgugZzQ968KsfHn5WOsZgHBFG7G2tY4moiS6HKBhh8Y.YgkCG9kb2iphesN1)
+- [DSU, MST and Kruskal](https://youtu.be/7jqL6flohXE)
