@@ -30,11 +30,11 @@
 - [Frequency Arrays & Cumulative Sum](https://youtu.be/GXBdU5NReeg)
 - [Coordinate Compression, Maximum Sub-Array Sum, and Scheduling](https://youtu.be/ZTnQSFRWf8w)
 - Bitmasks [[1](https://youtu.be/Q4RA5N8xhh8), [2](https://youtu.be/t3W-zCx1OJ8)]
-- Number Theory [[1](https://zoom.us/rec/share/Qrn12yTx1uI1vG9mBBna-DujUVqV3vi0r5amHQ41Bq1lnd5sDMDSusMEbLpPTUAQ.-sC8tjYTXNnL9XFq), [2](https://zoom.us/rec/share/qfWsURYzpQWtm2ecB5FIJw2DivMI7OSYlhn7Ztw7rW9TwSudhhdSrN9e-U3zSD6r.Ld-jzw1utQ3L7faZ)]
+- Number Theory [[1](https://youtu.be/heRWrCIQFzQ), [2](https://youtu.be/j-7GfALqr-A)]
 - [Recursion](https://youtu.be/BBENTqZTjzc)
 - [Backtracking](https://youtu.be/B_dar92mGwQ)
 - [Introduction to Graph Theory](https://youtu.be/pU5PDOmM1cw)
 - [Depth First Search](https://youtu.be/8SaE3XfwJZg)
 - [Breadth First Search](https://youtu.be/iJOB2lo39n0)
-- [Traversal Applications](https://zoom.us/rec/share/rXWtC6ufnYUOdbk5i6SPPNWqxKyGHFx7nTMAMcoyPKUDjSKD69Ifk1WBSwAr-Og.HaM78CY_8K8qWj5Z)
+- [Traversal Applications](https://youtu.be/MUWWuGacWF4)
 - [DSU, MST and Kruskal](https://youtu.be/7jqL6flohXE)
