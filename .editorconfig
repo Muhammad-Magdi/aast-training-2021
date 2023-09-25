@@ -1,4 +1,5 @@
-[*]
+root = true
+[*.{c++,cc,cpp,cxx,h,h++,hh,hpp,hxx,inl,ipp,tlh,tli}]
 cpp_indent_braces=false
 cpp_indent_multi_line_relative_to=innermost_parenthesis
 cpp_indent_within_parentheses=indent
@@ -12,11 +13,11 @@ cpp_indent_preprocessor=leftmost_column
 cpp_indent_access_specifiers=false
 cpp_indent_namespace_contents=true
 cpp_indent_preserve_comments=false
-cpp_new_line_before_open_brace_namespace=false
-cpp_new_line_before_open_brace_type=false
-cpp_new_line_before_open_brace_function=false
-cpp_new_line_before_open_brace_block=false
-cpp_new_line_before_open_brace_lambda=false
+cpp_new_line_before_open_brace_namespace=ignore
+cpp_new_line_before_open_brace_type=ignore
+cpp_new_line_before_open_brace_function=ignore
+cpp_new_line_before_open_brace_block=ignore
+cpp_new_line_before_open_brace_lambda=ignore
 cpp_new_line_scope_braces_on_separate_lines=false
 cpp_new_line_close_brace_same_line_empty_type=false
 cpp_new_line_close_brace_same_line_empty_function=false
