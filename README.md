@@ -5,12 +5,16 @@
 ### Groups
 
 - [Codeforces Training Group](https://codeforces.com/group/NyeqaAF1Zx/blog)
+
 ### Assignments, Sheets & Contests
 
 - [Codeforces - Assiut Newcomers Sheets](https://codeforces.com/group/MWSDmqGsZm/contests)
 - [V Judge - STL #1 Assignment](https://vjudge.net/contest/426577)
+  - [Solutions](https://github.com/Muhammad-Magdi/aast-training-2021/tree/main/assignment-stl-1)
 - [V Judge - STL #2 Assignment](https://vjudge.net/contest/428262)
+  - [Solutions](https://github.com/Muhammad-Magdi/aast-training-2021/tree/main/assignment-stl-2)
 - [V Judge - Frequency Arrays & Cumulative Sum Assignment](https://vjudge.net/contest/429236)
+  - [Solutions](https://github.com/Muhammad-Magdi/aast-training-2021/tree/main/assignment-freq)
 - [V Judge - Bitmasks Assignment](https://vjudge.net/contest/439955)
 - [V Judge - Number Theory Assignment](https://vjudge.net/contest/441250)
 - [V Judge - Backtracking Assignment](https://vjudge.net/contest/442432)
