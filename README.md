@@ -16,6 +16,7 @@
 - [V Judge - Frequency Arrays & Cumulative Sum Assignment](https://vjudge.net/contest/429236)
   - [Solutions](https://github.com/Muhammad-Magdi/aast-training-2021/tree/main/assignment-freq)
 - [V Judge - Bitmasks Assignment](https://vjudge.net/contest/439955)
+  - [Solutions](https://github.com/Muhammad-Magdi/aast-training-2021/tree/main/assignment-bitmasks)
 - [V Judge - Number Theory Assignment](https://vjudge.net/contest/441250)
 - [V Judge - Backtracking Assignment](https://vjudge.net/contest/442432)
 - [V Judge - DFS Assignment](https://vjudge.net/contest/446288)
